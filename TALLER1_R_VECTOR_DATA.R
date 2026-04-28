@@ -15,8 +15,8 @@
 
 # Instalación de las librerías necesarias. 
 # (Descomentar estas líneas si se ejecuta el script por primera vez)
-# install.packages("terra", lib = lib_path)
-# install.packages("tidyterra", lib = lib_path)
+# install.packages("terra")
+# install.packages("tidyterra")
 # install.packages("dplyr")
 # install.packages("ggplot2")
 

@@ -1,0 +1,31 @@
+# --- R ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# --- Datos pesados y salidas ---
+data/
+*.tif
+*.tiff
+*.img
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.sbn
+*.sbx
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db

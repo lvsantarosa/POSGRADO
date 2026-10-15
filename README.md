@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌎💧 Material de Posgrado — Hidrología y Geotecnologías
+# 🌎💧 Material de Posgrado — Introducción al SIG, Hidrología y Geotecnologías
 
 **Laboratorio de Recursos Hídricos y Geotecnologías (LRHG)**
 Facultad de Ciencias Agronómicas y de los Alimentos · Escuela de Agronomía

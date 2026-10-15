@@ -108,7 +108,22 @@ install.packages(c("terra", "tidyterra", "dplyr", "tidyr", "ggplot2", "readxl", 
 
 Los conjuntos de datos **no se distribuyen completos** en este repositorio: deben descargarse desde sus fuentes oficiales (ODEPA/ICET, BCN, DGA). El detalle de cada fuente, su descripción y la carpeta de destino están documentados en **[`R/DATOS/datospublicos.md`](R/DATOS/datospublicos.md)**.
 
-Para datos satelitales preparados para Chile, véase también el repositorio complementario [**gee-global-data-chile**](https://github.com/lvsantarosa/gee-global-data-chile).
+Para datos satelitales preparados para Chile, véase también el repositorio complementario [**gee-global-data-chile**](https://github.com/lvsantarosa/gee-global-data-chile), junto con los demás repositorios listados en [Repositorios complementarios](#-repositorios-complementarios).
+
+---
+
+## 🔗 Repositorios complementarios
+
+Otros repositorios del autor con material de apoyo, scripts y tutoriales que amplían los contenidos de estos talleres:
+
+| Repositorio | Lenguaje | Contenido |
+|:--|:--:|:--|
+| [**gee-global-data-chile**](https://github.com/lvsantarosa/gee-global-data-chile) | GEE | Datos satelitales globales preparados y recortados para **Chile**, listos para su uso en Google Earth Engine. |
+| [**NASA-data-download**](https://github.com/lvsantarosa/NASA-data-download) | Python | Descarga **masiva de datos NASA** (GES DISC) con `wget` a partir de una lista de enlaces, ejecutable en Google Colab con Google Drive montado. Incluye el notebook de ejemplo para el conjunto **GRACE**. |
+| [**FLDAS_GLDAS_Processing**](https://github.com/lvsantarosa/FLDAS_GLDAS_Processing) | R | Procesamiento de las series hidrológicas **FLDAS**, **GLDAS** y **GRACE**: lectura de los archivos descargados, extracción de variables del balance hídrico y almacenamiento de agua subterránea. |
+| [**Geostatistical-analysis-in-R**](https://github.com/lvsantarosa/Geostatistical-analysis-in-R) | R | **Análisis geoestadístico** con `gstat`: organización de los datos de monitoreo del Servicio Geológico de Brasil (RIMAS) con el *tidyverse*, variografía y predicción espacial del nivel del agua subterránea. |
+
+> 💡 Los tres últimos repositorios fueron desarrollados en el contexto de la asignatura *Analysis of hydrological and climatic data obtained by Orbital Sensors* (Posgrado en Geociencias y Medio Ambiente, UNESP) y se mantienen aquí como referencia metodológica complementaria.
 
 ---
 
